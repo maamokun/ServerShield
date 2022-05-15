@@ -1,0 +1,4 @@
+      <h3 class="section-header">ボット設定</h3>
+      <label>プレフィックス</label>
+      <input class="prefix" id="prefix" type="text" value='<%= db.get(`prefix_${guild.id}`) || config.bot.prefix %>'>
+      <button class="btn">プレフィックスを保存</button>
